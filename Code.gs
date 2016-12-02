@@ -26,8 +26,6 @@ try{
   if (!item2) {item2 = 'About';};
   
   FormApp.getUi().createAddonMenu()
-    .addItem('delete some props', 'dletstuff')
-    .addItem('run trigger', 'Data_Director_FormSbmt')
     .addItem(iOne,'openUpSideSetUp')
     .addItem(item2,'openAbout').addToUi();
 }catch(e){
