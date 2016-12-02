@@ -26,8 +26,8 @@ try{
   if (!item2) {item2 = 'About';};
   
   FormApp.getUi().createAddonMenu()
-    .addItem(iOne,'openUpSideSetUp')
-    .addItem(item2,'openAbout').addToUi();
+    .addItem(iOne,'function_Name_Here_To_Open_Sidebar')
+    .addItem(item2,'function_Name_Here_to_Open_About_Dialog').addToUi();
 }catch(e){
   sendMsg(e,'onOpen');//My error handling message system
 };
